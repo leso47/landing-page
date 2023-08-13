@@ -1,39 +1,11 @@
-body {
-    display: flex;
+.first-line {
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #1f2937;
-    color: red;
+    display: flex;
+    gap: 16px;
 }
 
-.header {
-    color: white;
+.links {
     display: flex;
-}
-
-a {
-    display: flex;
-    text-decoration: none;
-    color: white;
     justify-content: end;
-}
-
-button {
-    background-color: #3882f6;
-    color: white;
-}
-
-.hero {
-    display: flex;
-}
-
-.website {
-    font-weight: 48px;
-}
-
-p,
-.header,
-.website
- {
-     padding-left: 5em;
+    align-items: end;
 }
