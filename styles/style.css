@@ -1,12 +1,30 @@
 body {
     display: flex;
     justify-content: space-evenly;
-     background-color: #1f2937;
+    background-color: #1f2937;
+    color: white;
 }
 
 .header {
+    color: white;
     display: flex;
-    font-size: 48px;
-   
+    align-items: center;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.hero {
+    display: flex;
+}
+
+.website {
+    font-size: 48px;
 }
