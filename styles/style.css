@@ -1,19 +1,23 @@
 body {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    background-color: #1f2937;
-    color: white;
+   
+    color: red;
 }
 
 .header {
     color: white;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    background-color: #1f2937;
 }
 
 a {
+    display: flex;
     text-decoration: none;
     color: white;
+    justify-content: end;
 }
 
 button {
@@ -26,5 +30,5 @@ button {
 }
 
 .website {
-    font-size: 48px;
+    font-weight: 48px;
 }
