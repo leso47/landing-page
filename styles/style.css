@@ -2,15 +2,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
+    background-color: #1f2937;
     color: red;
 }
 
 .header {
     color: white;
     display: flex;
-    align-items: center; 
-    background-color: #1f2937;
 }
 
 a {
@@ -31,4 +29,11 @@ button {
 
 .website {
     font-weight: 48px;
+}
+
+p,
+.header,
+.website
+ {
+     padding-left: 5em;
 }
