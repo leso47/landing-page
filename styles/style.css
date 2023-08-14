@@ -1,6 +1,5 @@
 body {
         font-family: Arial, Helvetica, sans-serif;
-        align-items: center;
         margin: 0;
         padding: 0;
         color: white;
@@ -10,9 +9,7 @@ body {
 .top {
     background-color: #1f2937;
     height: 25em;
-    padding-left: 5em;
-    display: flex;  
-    flex-direction: column;
+    padding: 1em 5em;
 }
 
 .first-line {
@@ -21,6 +18,10 @@ body {
     display: flex;
     gap: 6px;
     margin-bottom: 5em;
+}
+
+.header,
+.logo {
 }
 
 .first-block {
@@ -69,4 +70,12 @@ button {
     border-radius: 5px;
     border-color: #3882f6;
     margin-left: 3px;
+}
+
+.text {
+    display: flex;
+    align-self: center;
+    margin: 5px;
+    flex-direction: column;
+    flex: 1;
 }
